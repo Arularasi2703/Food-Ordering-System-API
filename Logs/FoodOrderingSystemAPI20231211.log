@@ -1,0 +1,1205 @@
+2023-12-11 11:04:20.305 +05:30 [INF] User profile is available. Using 'C:\Users\Arularasi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-11 11:04:21.300 +05:30 [INF] Now listening on: http://localhost:5038
+2023-12-11 11:04:21.305 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-11 11:04:21.306 +05:30 [INF] Hosting environment: Development
+2023-12-11 11:04:21.306 +05:30 [INF] Content root path: C:\Users\Arularasi\Google Drive\MY FILES\Aspire Systems\Angular\Code\Application\Asp.Net Web API\FoodOrderingSystemAPI
+2023-12-11 11:04:28.649 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/swagger/index.html - -
+2023-12-11 11:04:29.323 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/swagger/index.html - - - 200 - text/html;charset=utf-8 677.6212ms
+2023-12-11 11:04:29.458 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/_framework/aspnetcore-browser-refresh.js - -
+2023-12-11 11:04:29.460 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 2.6249ms
+2023-12-11 11:04:30.128 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/swagger/v1/swagger.json - -
+2023-12-11 11:04:30.522 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 394.2881ms
+2023-12-11 11:15:39.187 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:15:39.383 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-12-11 11:15:39.905 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:15:39.982 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 794.7284ms
+2023-12-11 11:15:40.165 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:15:41.542 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:15:41.546 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:15:41.762 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:15:50.137 +05:30 [INF] Executed DbCommand (188ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:15:51.209 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:15:51.246 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 9455.5343ms
+2023-12-11 11:15:51.247 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:15:51.275 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 11110.2499ms
+2023-12-11 11:16:58.288 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:16:58.468 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:16:58.469 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 181.1592ms
+2023-12-11 11:16:58.471 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:16:58.473 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:16:58.473 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:16:58.474 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:16:58.509 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:16:58.520 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:16:58.553 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 78.3941ms
+2023-12-11 11:16:58.554 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:16:58.564 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 92.8173ms
+2023-12-11 11:17:24.594 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:17:24.595 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:17:24.595 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 1.2667ms
+2023-12-11 11:17:24.597 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:17:24.598 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:17:24.598 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:17:24.598 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:17:24.786 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:17:24.795 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:17:24.797 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 199.0236ms
+2023-12-11 11:17:24.798 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:17:24.798 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 200.7286ms
+2023-12-11 11:24:59.772 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:24:59.773 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:24:59.773 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.7923ms
+2023-12-11 11:24:59.775 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:24:59.776 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:24:59.776 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:24:59.776 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:25:05.023 +05:30 [INF] Executed DbCommand (507ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:25:06.029 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:25:06.034 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 6218.4354ms
+2023-12-11 11:25:06.035 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:25:06.035 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 6260.1849ms
+2023-12-11 11:25:25.595 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:25:25.596 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:25:25.596 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.6858ms
+2023-12-11 11:25:25.599 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:25:25.601 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:25:25.601 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:25:25.601 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:25:25.607 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:25:25.696 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:25:25.697 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 95.8995ms
+2023-12-11 11:25:25.697 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:25:25.698 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 98.3556ms
+2023-12-11 11:26:12.006 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:26:12.006 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:26:12.006 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.8121ms
+2023-12-11 11:26:12.011 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:26:12.012 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:26:12.012 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:26:12.012 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:26:12.015 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:26:12.020 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:26:12.021 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 9.1826ms
+2023-12-11 11:26:12.021 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:26:12.022 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 11.0320ms
+2023-12-11 11:29:20.334 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:29:20.334 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:29:20.336 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 2.2251ms
+2023-12-11 11:29:20.469 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:29:20.481 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:29:20.484 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:29:20.489 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:29:20.497 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:29:20.507 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:29:20.508 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 19.1723ms
+2023-12-11 11:29:20.508 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:29:20.509 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 39.6554ms
+2023-12-11 11:30:08.630 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:30:08.631 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:30:08.632 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 1.2825ms
+2023-12-11 11:30:08.637 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:30:08.638 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:30:08.638 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:30:08.638 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:30:08.642 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:30:08.654 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:30:08.656 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 17.3431ms
+2023-12-11 11:30:08.657 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:30:08.658 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 21.1684ms
+2023-12-11 11:30:18.329 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:30:18.329 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:30:18.329 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.6396ms
+2023-12-11 11:30:18.331 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:30:18.332 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:30:18.332 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:30:18.333 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:30:18.340 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:30:18.346 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:30:18.347 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 14.0355ms
+2023-12-11 11:30:18.347 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:30:18.347 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 15.7841ms
+2023-12-11 11:30:56.768 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:30:56.769 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:30:56.769 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.7425ms
+2023-12-11 11:30:56.772 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:30:56.773 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:30:56.773 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:30:56.773 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:30:56.776 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:30:56.788 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:30:56.790 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 16.2029ms
+2023-12-11 11:30:56.790 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:30:56.790 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 18.4426ms
+2023-12-11 11:31:29.924 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:31:29.924 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:31:29.925 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 1.0964ms
+2023-12-11 11:31:29.948 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:31:29.949 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:31:29.949 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:31:29.950 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:31:30.009 +05:30 [INF] Executed DbCommand (53ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:31:30.016 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:31:30.017 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 66.4217ms
+2023-12-11 11:31:30.017 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:31:30.018 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 69.1173ms
+2023-12-11 11:32:37.549 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:32:37.549 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:32:37.549 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.6266ms
+2023-12-11 11:32:37.551 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:32:37.552 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:32:37.552 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:32:37.553 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:32:37.557 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:32:37.571 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:32:37.572 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 19.8203ms
+2023-12-11 11:32:37.573 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:32:37.573 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 21.2505ms
+2023-12-11 11:32:52.899 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:32:52.899 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:32:52.900 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 1.0389ms
+2023-12-11 11:32:52.902 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:32:52.904 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:32:52.904 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:32:52.904 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:32:52.906 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:32:52.911 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:32:52.912 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 7.9632ms
+2023-12-11 11:32:52.912 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:32:52.912 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 9.6572ms
+2023-12-11 11:33:40.839 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:33:40.840 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:33:40.840 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.5670ms
+2023-12-11 11:33:40.842 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:33:40.842 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:33:40.842 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:33:40.842 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:33:40.847 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:33:40.853 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:33:40.854 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 11.1629ms
+2023-12-11 11:33:40.854 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:33:40.854 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 12.5817ms
+2023-12-11 11:34:11.914 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:34:11.916 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:34:11.916 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 1.7544ms
+2023-12-11 11:34:11.923 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:34:11.931 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:34:11.931 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:34:11.931 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:34:11.936 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:34:11.982 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:34:11.983 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 51.5896ms
+2023-12-11 11:34:11.983 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:34:11.983 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 60.5203ms
+2023-12-11 11:34:52.507 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:34:52.508 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:34:52.508 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.7847ms
+2023-12-11 11:34:52.510 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:34:52.511 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:34:52.512 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:34:52.512 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:34:52.518 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:34:52.525 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:34:52.526 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 13.5136ms
+2023-12-11 11:34:52.526 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:34:52.527 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 16.4874ms
+2023-12-11 11:35:09.042 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:35:09.043 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:35:09.043 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.7658ms
+2023-12-11 11:35:09.045 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:35:09.045 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:35:09.045 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:35:09.045 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:35:09.047 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:35:09.055 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:35:09.055 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 10.3028ms
+2023-12-11 11:35:09.056 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:35:09.056 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 11.1436ms
+2023-12-11 11:35:59.097 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:35:59.097 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:35:59.097 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.5506ms
+2023-12-11 11:35:59.101 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:35:59.102 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:35:59.103 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:35:59.103 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:35:59.106 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:35:59.112 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:35:59.113 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 10.5042ms
+2023-12-11 11:35:59.113 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:35:59.113 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 12.6669ms
+2023-12-11 11:36:27.456 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:36:27.456 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:36:27.456 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.6098ms
+2023-12-11 11:36:27.460 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:36:27.463 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:36:27.463 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:36:27.463 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:36:27.466 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:36:27.483 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:36:27.485 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 21.7071ms
+2023-12-11 11:36:27.485 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:36:27.485 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 24.8856ms
+2023-12-11 11:36:38.338 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:36:38.338 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:36:38.339 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.3975ms
+2023-12-11 11:36:38.340 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:36:38.341 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:36:38.341 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:36:38.341 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:36:38.344 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:36:38.349 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:36:38.350 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 8.3493ms
+2023-12-11 11:36:38.350 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:36:38.350 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 9.4380ms
+2023-12-11 11:37:33.844 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:37:33.844 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:37:33.845 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.8242ms
+2023-12-11 11:37:33.846 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:37:33.846 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:37:33.846 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:37:33.847 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:37:33.849 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:37:33.860 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:37:33.861 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 14.8318ms
+2023-12-11 11:37:33.862 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:37:33.862 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 16.2560ms
+2023-12-11 11:38:06.824 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:38:06.825 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:38:06.825 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.6121ms
+2023-12-11 11:38:06.827 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:38:06.827 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:38:06.827 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:38:06.828 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:38:06.830 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:38:06.835 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:38:06.836 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 8.2589ms
+2023-12-11 11:38:06.836 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:38:06.836 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 9.4944ms
+2023-12-11 11:41:01.940 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:41:01.940 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:41:01.940 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.6609ms
+2023-12-11 11:41:01.942 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:41:01.943 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:41:01.943 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:41:01.943 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:41:01.947 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:41:01.951 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:41:01.953 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 9.8502ms
+2023-12-11 11:41:01.954 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:41:01.955 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 12.2175ms
+2023-12-11 11:41:16.673 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:41:16.674 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:41:16.674 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.3755ms
+2023-12-11 11:41:16.676 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:41:16.676 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:41:16.676 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:41:16.676 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:41:16.678 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:41:16.688 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:41:16.689 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 12.5141ms
+2023-12-11 11:41:16.689 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:41:16.690 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 14.1370ms
+2023-12-11 11:43:02.412 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:43:02.413 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:43:02.413 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.8058ms
+2023-12-11 11:43:02.415 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:43:02.415 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:43:02.416 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:43:02.416 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:43:02.421 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:43:02.513 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:43:02.513 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 97.4137ms
+2023-12-11 11:43:02.514 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:43:02.514 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 99.1116ms
+2023-12-11 11:45:24.771 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:45:24.771 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:45:24.771 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.4739ms
+2023-12-11 11:45:24.773 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:45:24.774 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:45:24.774 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:45:24.774 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:45:24.778 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:45:24.786 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:45:24.787 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 12.7464ms
+2023-12-11 11:45:24.787 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:45:24.787 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 13.8555ms
+2023-12-11 11:45:34.146 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:45:34.146 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:45:34.146 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.4838ms
+2023-12-11 11:45:34.148 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:45:34.149 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:45:34.149 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:45:34.149 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:45:34.153 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:45:34.160 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:45:34.161 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 11.8017ms
+2023-12-11 11:45:34.161 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:45:34.161 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 13.4253ms
+2023-12-11 11:45:47.086 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 11:45:47.087 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:45:47.087 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.4642ms
+2023-12-11 11:45:47.088 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 11:45:47.089 +05:30 [INF] CORS policy execution successful.
+2023-12-11 11:45:47.089 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:45:47.089 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 11:45:47.091 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 11:45:47.106 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 11:45:47.107 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 17.3266ms
+2023-12-11 11:45:47.107 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 11:45:47.107 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 18.7890ms
+2023-12-11 12:00:21.400 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:00:21.401 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:00:21.402 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 1.9526ms
+2023-12-11 12:00:21.447 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:00:21.450 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:00:21.450 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:00:21.450 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:00:37.964 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/_framework/aspnetcore-browser-refresh.js - -
+2023-12-11 12:00:37.966 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 2.3451ms
+2023-12-11 12:00:38.288 +05:30 [ERR] An error occurred using the connection to database 'FoodAppDB' on server 'LAPTOP-HS0OJSCM\SQLEXPRESS'.
+2023-12-11 12:00:39.585 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'AccountAPI.Data.FoodAppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6; handshake=50; [Login] initialization=0; authentication=0; [Post-Login] complete=15964; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:7556be21-a9b1-4b57-aae1-8cf4ed9b95f6
+Error Number:-2,State:0,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6; handshake=50; [Login] initialization=0; authentication=0; [Post-Login] complete=15964; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:7556be21-a9b1-4b57-aae1-8cf4ed9b95f6
+Error Number:-2,State:0,Class:11
+2023-12-11 12:00:40.125 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 18674.4283ms
+2023-12-11 12:00:40.125 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:00:40.745 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/swagger/v1/swagger.json - -
+2023-12-11 12:00:40.762 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 16.8439ms
+2023-12-11 12:00:40.857 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6; handshake=50; [Login] initialization=0; authentication=0; [Post-Login] complete=15964; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at OrderCartServiceAPI.Repositories.CartRepository.GetCartItems() in C:\Users\Arularasi\Google Drive\MY FILES\Aspire Systems\Angular\Code\Application\Asp.Net Web API\FoodOrderingSystemAPI\Data\Repositories\CartRepository.cs:line 20
+   at OrderCartServiceAPI.Controllers.CartController.GetCartItems() in C:\Users\Arularasi\Google Drive\MY FILES\Aspire Systems\Angular\Code\Application\Asp.Net Web API\FoodOrderingSystemAPI\Controllers\CartController.cs:line 30
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:7556be21-a9b1-4b57-aae1-8cf4ed9b95f6
+Error Number:-2,State:0,Class:11
+2023-12-11 12:00:41.193 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 500 - text/plain;+charset=utf-8 19746.1374ms
+2023-12-11 12:00:41.215 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/logs - -
+2023-12-11 12:00:41.216 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:00:41.217 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/logs - - - 204 - - 1.7088ms
+2023-12-11 12:00:41.225 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5038/api/logs application/json 10952
+2023-12-11 12:00:41.226 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:00:41.226 +05:30 [INF] Executing endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:00:41.231 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5038/api/logs application/json 103
+2023-12-11 12:00:41.232 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:00:41.232 +05:30 [INF] Executing endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:00:41.277 +05:30 [INF] Route matched with {action = "LogMessage", controller = "Logs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMessage(FoodOrderingSystemAPI.Models.LogModel) on controller LogsController (FoodOrderingSystemAPI).
+2023-12-11 12:00:41.277 +05:30 [INF] Route matched with {action = "LogMessage", controller = "Logs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMessage(FoodOrderingSystemAPI.Models.LogModel) on controller LogsController (FoodOrderingSystemAPI).
+2023-12-11 12:00:42.454 +05:30 [ERR] LogMessage: Failed to fetch cart items, Severity: Error
+Error: "Failed to fetch cart items"
+2023-12-11 12:00:42.454 +05:30 [ERR] LogMessage: Failed to fetch cart items, Severity: Error
+Error: {"headers":{"normalizedNames":{},"lazyUpdate":null},"status":500,"statusText":"Internal Server Error","url":"http://localhost:5038/api/cart","ok":false,"name":"HttpErrorResponse","message":"Http failure response for http://localhost:5038/api/cart: 500 Internal Server Error","error":"Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6; handshake=50; [Login] initialization=0; authentication=0; [Post-Login] complete=15964; \r\n ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.\r\n   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)\r\n   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)\r\n   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)\r\n   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)\r\n   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()\r\n   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()\r\n   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()\r\n   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)\r\n   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)\r\n   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)\r\n   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)\r\n   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)\r\n   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)\r\n   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)\r\n   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)\r\n   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)\r\n   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)\r\n   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)\r\n   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)\r\n   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)\r\n   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)\r\n   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)\r\n   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)\r\n   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)\r\n   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)\r\n   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)\r\n   at Microsoft.Data.SqlClient.SqlConnection.Open()\r\n   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)\r\n   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()\r\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\r\n   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)\r\n   at OrderCartServiceAPI.Repositories.CartRepository.GetCartItems() in C:\\Users\\Arularasi\\Google Drive\\MY FILES\\Aspire Systems\\Angular\\Code\\Application\\Asp.Net Web API\\FoodOrderingSystemAPI\\Data\\Repositories\\CartRepository.cs:line 20\r\n   at OrderCartServiceAPI.Controllers.CartController.GetCartItems() in C:\\Users\\Arularasi\\Google Drive\\MY FILES\\Aspire Systems\\Angular\\Code\\Application\\Asp.Net Web API\\FoodOrderingSystemAPI\\Controllers\\CartController.cs:line 30\r\n   at lambda_method3(Closure, Object, Object[])\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)\r\n   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)\r\n   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)\r\n   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)\r\n   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)\r\n   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)\r\n   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)\r\n   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)\r\n   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)\r\nClientConnectionId:7556be21-a9b1-4b57-aae1-8cf4ed9b95f6\r\nError Number:-2,State:0,Class:11\r\n\r\nHEADERS\r\n=======\r\nAccept: application/json, text/plain, */*\r\nConnection: keep-alive\r\nHost: localhost:5038\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: en-US,en;q=0.9,ta;q=0.8\r\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJ5dW1zcG90YWRtaW5AZ21haWwuY29tIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzAyMTk3MjY3LCJleHAiOjE3MDI4MDIwNjcsImlhdCI6MTcwMjE5NzI2NywiaXNzIjoiWXVtIFNwb3QiLCJhdWQiOiJ5dW1zcG90LmluIn0.bj8QMxqK-RtnS7zbnWiSV_2og9AdxJy79re5iMkk5m8\r\nOrigin: http://localhost:4200\r\nReferer: http://localhost:4200/\r\nsec-ch-ua: \"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\"\r\nsec-ch-ua-mobile: ?0\r\nsec-ch-ua-platform: \"Windows\"\r\nSec-Fetch-Site: same-site\r\nSec-Fetch-Mode: cors\r\nSec-Fetch-Dest: empty\r\n"}
+2023-12-11 12:00:42.582 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-12-11 12:00:42.583 +05:30 [INF] Executed action LogsController.LogMessage (FoodOrderingSystemAPI) in 1305.9199ms
+2023-12-11 12:00:42.583 +05:30 [INF] Executed endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:00:42.583 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5038/api/logs application/json 103 - 200 0 - 1351.9819ms
+2023-12-11 12:00:42.588 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-12-11 12:00:42.588 +05:30 [INF] Executed action LogsController.LogMessage (FoodOrderingSystemAPI) in 1311.2815ms
+2023-12-11 12:00:42.588 +05:30 [INF] Executed endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:00:42.588 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5038/api/logs application/json 10952 - 200 0 - 1363.6560ms
+2023-12-11 12:20:53.442 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:20:53.442 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:20:53.442 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.7162ms
+2023-12-11 12:20:53.491 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:20:53.493 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:20:53.494 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:20:53.494 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:20:55.356 +05:30 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:20:55.419 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:20:55.421 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 1926.8726ms
+2023-12-11 12:20:55.421 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:20:55.421 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 1929.8177ms
+2023-12-11 12:21:20.463 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:21:20.464 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:21:20.465 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 1.2268ms
+2023-12-11 12:21:20.469 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:21:20.470 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:21:20.470 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:21:20.470 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:21:20.475 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:21:20.486 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:21:20.488 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 17.6101ms
+2023-12-11 12:21:20.488 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:21:20.488 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 18.9078ms
+2023-12-11 12:21:28.015 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/logs - -
+2023-12-11 12:21:28.015 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:21:28.015 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/logs - - - 204 - - 0.3540ms
+2023-12-11 12:21:28.016 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5038/api/logs application/json 87
+2023-12-11 12:21:28.017 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:21:28.017 +05:30 [INF] Executing endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:21:28.017 +05:30 [INF] Route matched with {action = "LogMessage", controller = "Logs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMessage(FoodOrderingSystemAPI.Models.LogModel) on controller LogsController (FoodOrderingSystemAPI).
+2023-12-11 12:21:28.020 +05:30 [INF] LogMessage: Fetched menu items successfully., Severity: Information
+2023-12-11 12:21:28.020 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-12-11 12:21:28.020 +05:30 [INF] Executed action LogsController.LogMessage (FoodOrderingSystemAPI) in 2.7668ms
+2023-12-11 12:21:28.020 +05:30 [INF] Executed endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:21:28.020 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5038/api/logs application/json 87 - 200 0 - 3.4797ms
+2023-12-11 12:21:40.858 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:21:40.858 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:21:40.858 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.4342ms
+2023-12-11 12:21:40.861 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:21:40.862 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:21:40.862 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:21:40.862 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:21:40.870 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:21:40.879 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:21:40.880 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 18.1363ms
+2023-12-11 12:21:40.880 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:21:40.881 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 19.7044ms
+2023-12-11 12:21:41.900 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/logs - -
+2023-12-11 12:21:41.900 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:21:41.900 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/logs - - - 204 - - 0.3884ms
+2023-12-11 12:21:41.940 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5038/api/logs application/json 87
+2023-12-11 12:21:41.943 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:21:41.943 +05:30 [INF] Executing endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:21:41.943 +05:30 [INF] Route matched with {action = "LogMessage", controller = "Logs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMessage(FoodOrderingSystemAPI.Models.LogModel) on controller LogsController (FoodOrderingSystemAPI).
+2023-12-11 12:21:41.944 +05:30 [INF] LogMessage: Fetched menu items successfully., Severity: Information
+2023-12-11 12:21:41.944 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-12-11 12:21:41.948 +05:30 [INF] Executed action LogsController.LogMessage (FoodOrderingSystemAPI) in 1.4032ms
+2023-12-11 12:21:41.948 +05:30 [INF] Executed endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:21:41.948 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5038/api/logs application/json 87 - 200 0 - 7.5247ms
+2023-12-11 12:21:43.429 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:21:43.429 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:21:43.430 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:21:43.430 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:21:43.431 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:21:43.438 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:21:43.439 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 8.821ms
+2023-12-11 12:21:43.439 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:21:43.439 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 9.6812ms
+2023-12-11 12:21:43.910 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5038/api/logs application/json 87
+2023-12-11 12:21:43.911 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:21:43.911 +05:30 [INF] Executing endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:21:43.911 +05:30 [INF] Route matched with {action = "LogMessage", controller = "Logs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMessage(FoodOrderingSystemAPI.Models.LogModel) on controller LogsController (FoodOrderingSystemAPI).
+2023-12-11 12:21:43.912 +05:30 [INF] LogMessage: Fetched menu items successfully., Severity: Information
+2023-12-11 12:21:43.912 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-12-11 12:21:43.913 +05:30 [INF] Executed action LogsController.LogMessage (FoodOrderingSystemAPI) in 1.3384ms
+2023-12-11 12:21:43.913 +05:30 [INF] Executed endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:21:43.913 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5038/api/logs application/json 87 - 200 0 - 3.1042ms
+2023-12-11 12:22:23.155 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:22:23.156 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:22:23.156 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.5027ms
+2023-12-11 12:22:23.158 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:22:23.158 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:22:23.158 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:22:23.159 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:22:23.162 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:22:23.167 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:22:23.168 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 9.2127ms
+2023-12-11 12:22:23.168 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:22:23.168 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 10.2713ms
+2023-12-11 12:22:23.330 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/logs - -
+2023-12-11 12:22:23.330 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:22:23.330 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/logs - - - 204 - - 0.5131ms
+2023-12-11 12:22:23.332 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5038/api/logs application/json 87
+2023-12-11 12:22:23.332 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:22:23.332 +05:30 [INF] Executing endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:22:23.333 +05:30 [INF] Route matched with {action = "LogMessage", controller = "Logs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMessage(FoodOrderingSystemAPI.Models.LogModel) on controller LogsController (FoodOrderingSystemAPI).
+2023-12-11 12:22:23.334 +05:30 [INF] LogMessage: Fetched menu items successfully., Severity: Information
+2023-12-11 12:22:23.334 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-12-11 12:22:23.334 +05:30 [INF] Executed action LogsController.LogMessage (FoodOrderingSystemAPI) in 1.6608ms
+2023-12-11 12:22:23.335 +05:30 [INF] Executed endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:22:23.335 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5038/api/logs application/json 87 - 200 0 - 3.5908ms
+2023-12-11 12:22:40.159 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:22:40.159 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:22:40.159 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.3873ms
+2023-12-11 12:22:40.161 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:22:40.161 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:22:40.161 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:22:40.161 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:22:40.163 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:22:40.168 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:22:40.169 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 7.8543ms
+2023-12-11 12:22:40.169 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:22:40.170 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 8.6791ms
+2023-12-11 12:22:40.275 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/logs - -
+2023-12-11 12:22:40.276 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:22:40.276 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/logs - - - 204 - - 0.4110ms
+2023-12-11 12:22:40.277 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5038/api/logs application/json 87
+2023-12-11 12:22:40.278 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:22:40.278 +05:30 [INF] Executing endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:22:40.278 +05:30 [INF] Route matched with {action = "LogMessage", controller = "Logs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMessage(FoodOrderingSystemAPI.Models.LogModel) on controller LogsController (FoodOrderingSystemAPI).
+2023-12-11 12:22:40.279 +05:30 [INF] LogMessage: Fetched menu items successfully., Severity: Information
+2023-12-11 12:22:40.280 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-12-11 12:22:40.280 +05:30 [INF] Executed action LogsController.LogMessage (FoodOrderingSystemAPI) in 2.1567ms
+2023-12-11 12:22:40.280 +05:30 [INF] Executed endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:22:40.280 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5038/api/logs application/json 87 - 200 0 - 3.0353ms
+2023-12-11 12:23:18.503 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:23:18.503 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:23:18.504 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.5784ms
+2023-12-11 12:23:18.506 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:23:18.506 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:23:18.506 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:23:18.506 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:23:18.512 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:23:18.519 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:23:18.520 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 13.6054ms
+2023-12-11 12:23:18.520 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:23:18.520 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 14.6757ms
+2023-12-11 12:23:18.645 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/logs - -
+2023-12-11 12:23:18.645 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:23:18.645 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/logs - - - 204 - - 0.3976ms
+2023-12-11 12:23:18.647 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5038/api/logs application/json 87
+2023-12-11 12:23:18.647 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:23:18.647 +05:30 [INF] Executing endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:23:18.647 +05:30 [INF] Route matched with {action = "LogMessage", controller = "Logs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMessage(FoodOrderingSystemAPI.Models.LogModel) on controller LogsController (FoodOrderingSystemAPI).
+2023-12-11 12:23:18.648 +05:30 [INF] LogMessage: Fetched menu items successfully., Severity: Information
+2023-12-11 12:23:18.649 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-12-11 12:23:18.649 +05:30 [INF] Executed action LogsController.LogMessage (FoodOrderingSystemAPI) in 1.2032ms
+2023-12-11 12:23:18.649 +05:30 [INF] Executed endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:23:18.649 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5038/api/logs application/json 87 - 200 0 - 2.4784ms
+2023-12-11 12:23:40.544 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:23:40.544 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:23:40.544 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.4629ms
+2023-12-11 12:23:40.546 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:23:40.546 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:23:40.546 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:23:40.546 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:23:40.548 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:23:40.553 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:23:40.554 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 7.7033ms
+2023-12-11 12:23:40.554 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:23:40.554 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 8.6700ms
+2023-12-11 12:23:40.666 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/logs - -
+2023-12-11 12:23:40.666 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:23:40.666 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/logs - - - 204 - - 0.4196ms
+2023-12-11 12:23:40.668 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5038/api/logs application/json 87
+2023-12-11 12:23:40.668 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:23:40.668 +05:30 [INF] Executing endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:23:40.668 +05:30 [INF] Route matched with {action = "LogMessage", controller = "Logs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMessage(FoodOrderingSystemAPI.Models.LogModel) on controller LogsController (FoodOrderingSystemAPI).
+2023-12-11 12:23:40.669 +05:30 [INF] LogMessage: Fetched menu items successfully., Severity: Information
+2023-12-11 12:23:40.669 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-12-11 12:23:40.669 +05:30 [INF] Executed action LogsController.LogMessage (FoodOrderingSystemAPI) in 0.9831ms
+2023-12-11 12:23:40.670 +05:30 [INF] Executed endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:23:40.670 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5038/api/logs application/json 87 - 200 0 - 2.0997ms
+2023-12-11 12:23:54.393 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:23:54.396 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:23:54.396 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 2.9225ms
+2023-12-11 12:23:54.404 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:23:54.404 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:23:54.404 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:23:54.404 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:23:54.457 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:23:54.475 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:23:54.476 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 72.1135ms
+2023-12-11 12:23:54.477 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:23:54.477 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 73.6893ms
+2023-12-11 12:23:54.541 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/logs - -
+2023-12-11 12:23:54.542 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:23:54.542 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/logs - - - 204 - - 0.4466ms
+2023-12-11 12:23:54.543 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5038/api/logs application/json 87
+2023-12-11 12:23:54.543 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:23:54.544 +05:30 [INF] Executing endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:23:54.544 +05:30 [INF] Route matched with {action = "LogMessage", controller = "Logs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMessage(FoodOrderingSystemAPI.Models.LogModel) on controller LogsController (FoodOrderingSystemAPI).
+2023-12-11 12:23:54.545 +05:30 [INF] LogMessage: Fetched menu items successfully., Severity: Information
+2023-12-11 12:23:54.545 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-12-11 12:23:54.545 +05:30 [INF] Executed action LogsController.LogMessage (FoodOrderingSystemAPI) in 1.4231ms
+2023-12-11 12:23:54.545 +05:30 [INF] Executed endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:23:54.545 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5038/api/logs application/json 87 - 200 0 - 1.9117ms
+2023-12-11 12:24:32.015 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:24:32.015 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:24:32.016 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.4774ms
+2023-12-11 12:24:32.017 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:24:32.018 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:24:32.018 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:24:32.018 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:24:32.020 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:24:32.025 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:24:32.026 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 8.304ms
+2023-12-11 12:24:32.026 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:24:32.026 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 9.2354ms
+2023-12-11 12:24:32.134 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/logs - -
+2023-12-11 12:24:32.134 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:24:32.134 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/logs - - - 204 - - 0.3055ms
+2023-12-11 12:24:32.136 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5038/api/logs application/json 87
+2023-12-11 12:24:32.137 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:24:32.137 +05:30 [INF] Executing endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:24:32.137 +05:30 [INF] Route matched with {action = "LogMessage", controller = "Logs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMessage(FoodOrderingSystemAPI.Models.LogModel) on controller LogsController (FoodOrderingSystemAPI).
+2023-12-11 12:24:32.138 +05:30 [INF] LogMessage: Fetched menu items successfully., Severity: Information
+2023-12-11 12:24:32.138 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-12-11 12:24:32.140 +05:30 [INF] Executed action LogsController.LogMessage (FoodOrderingSystemAPI) in 3.0692ms
+2023-12-11 12:24:32.140 +05:30 [INF] Executed endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:24:32.141 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5038/api/logs application/json 87 - 200 0 - 4.1598ms
+2023-12-11 12:27:24.702 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:27:24.702 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:27:24.702 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.5992ms
+2023-12-11 12:27:24.704 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:27:24.705 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:27:24.705 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:27:24.705 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:27:24.709 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:27:24.717 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:27:24.718 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 12.7565ms
+2023-12-11 12:27:24.718 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:27:24.718 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 13.6677ms
+2023-12-11 12:34:47.631 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:34:47.631 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:34:47.631 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.4192ms
+2023-12-11 12:34:47.633 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:34:47.633 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:34:47.633 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:34:47.633 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:34:48.467 +05:30 [INF] Executed DbCommand (82ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:34:48.532 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:34:48.533 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 900.123ms
+2023-12-11 12:34:48.533 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:34:48.534 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 900.9214ms
+2023-12-11 12:35:27.469 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:35:27.469 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:35:27.469 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.5808ms
+2023-12-11 12:35:27.471 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:35:27.472 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:35:27.472 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:35:27.472 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:35:27.477 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:35:27.481 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:35:27.482 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 9.9145ms
+2023-12-11 12:35:27.482 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:35:27.482 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 10.8520ms
+2023-12-11 12:36:53.488 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:36:53.488 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:36:53.489 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.6184ms
+2023-12-11 12:36:53.490 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:36:53.490 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:36:53.491 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:36:53.491 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:36:53.494 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:36:53.499 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:36:53.500 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 8.9643ms
+2023-12-11 12:36:53.500 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:36:53.500 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 9.8211ms
+2023-12-11 12:38:16.326 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/logs - -
+2023-12-11 12:38:16.328 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:38:16.328 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/logs - - - 204 - - 1.7423ms
+2023-12-11 12:38:16.332 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5038/api/logs application/json 87
+2023-12-11 12:38:16.333 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:38:16.333 +05:30 [INF] Executing endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:38:16.334 +05:30 [INF] Route matched with {action = "LogMessage", controller = "Logs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMessage(FoodOrderingSystemAPI.Models.LogModel) on controller LogsController (FoodOrderingSystemAPI).
+2023-12-11 12:38:16.337 +05:30 [INF] LogMessage: Fetched menu items successfully., Severity: Information
+2023-12-11 12:38:16.337 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-12-11 12:38:16.337 +05:30 [INF] Executed action LogsController.LogMessage (FoodOrderingSystemAPI) in 2.9581ms
+2023-12-11 12:38:16.337 +05:30 [INF] Executed endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:38:16.337 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5038/api/logs application/json 87 - 200 0 - 5.1592ms
+2023-12-11 12:38:28.618 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:38:28.619 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:38:28.619 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 1.3581ms
+2023-12-11 12:38:28.620 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:38:28.621 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:38:28.621 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:38:28.621 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:38:28.623 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:38:28.628 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:38:28.629 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 7.4505ms
+2023-12-11 12:38:28.629 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:38:28.629 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 8.3113ms
+2023-12-11 12:38:39.735 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/logs - -
+2023-12-11 12:38:39.735 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:38:39.736 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/logs - - - 204 - - 0.9585ms
+2023-12-11 12:38:39.738 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5038/api/logs application/json 87
+2023-12-11 12:38:39.739 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:38:39.739 +05:30 [INF] Executing endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:38:39.739 +05:30 [INF] Route matched with {action = "LogMessage", controller = "Logs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMessage(FoodOrderingSystemAPI.Models.LogModel) on controller LogsController (FoodOrderingSystemAPI).
+2023-12-11 12:38:39.741 +05:30 [INF] LogMessage: Fetched menu items successfully., Severity: Information
+2023-12-11 12:38:39.741 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-12-11 12:38:39.741 +05:30 [INF] Executed action LogsController.LogMessage (FoodOrderingSystemAPI) in 1.8689ms
+2023-12-11 12:38:39.741 +05:30 [INF] Executed endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:38:39.741 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5038/api/logs application/json 87 - 200 0 - 2.8754ms
+2023-12-11 12:39:28.848 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:39:28.849 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:39:28.849 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.5771ms
+2023-12-11 12:39:28.851 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:39:28.851 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:39:28.851 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:39:28.851 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:39:28.856 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:39:28.863 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:39:28.864 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 12.652ms
+2023-12-11 12:39:28.864 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:39:28.865 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 14.1709ms
+2023-12-11 12:39:40.760 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/logs - -
+2023-12-11 12:39:40.761 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:39:40.761 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/logs - - - 204 - - 0.8890ms
+2023-12-11 12:39:40.762 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5038/api/logs application/json 87
+2023-12-11 12:39:40.763 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:39:40.763 +05:30 [INF] Executing endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:39:40.763 +05:30 [INF] Route matched with {action = "LogMessage", controller = "Logs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMessage(FoodOrderingSystemAPI.Models.LogModel) on controller LogsController (FoodOrderingSystemAPI).
+2023-12-11 12:39:40.764 +05:30 [INF] LogMessage: Fetched menu items successfully., Severity: Information
+2023-12-11 12:39:40.764 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-12-11 12:39:40.765 +05:30 [INF] Executed action LogsController.LogMessage (FoodOrderingSystemAPI) in 1.5846ms
+2023-12-11 12:39:40.765 +05:30 [INF] Executed endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:39:40.765 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5038/api/logs application/json 87 - 200 0 - 2.2851ms
+2023-12-11 12:41:02.337 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:41:02.337 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:41:02.338 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.6708ms
+2023-12-11 12:41:02.340 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:41:02.341 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:41:02.341 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:41:02.341 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:41:02.348 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:41:02.360 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:41:02.363 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 22.1056ms
+2023-12-11 12:41:02.363 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:41:02.364 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 23.6232ms
+2023-12-11 12:42:01.218 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:42:01.218 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:42:01.219 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.4866ms
+2023-12-11 12:42:01.220 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:42:01.221 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:42:01.221 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:42:01.229 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:42:01.234 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:42:01.249 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:42:01.250 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 20.7314ms
+2023-12-11 12:42:01.250 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:42:01.250 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 30.0350ms
+2023-12-11 12:44:26.398 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:44:26.399 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:44:26.399 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 1.4055ms
+2023-12-11 12:44:26.404 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:44:26.405 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:44:26.406 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:44:26.406 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:44:26.413 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:44:26.421 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:44:26.422 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 15.9158ms
+2023-12-11 12:44:26.422 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:44:26.422 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 18.2458ms
+2023-12-11 12:46:52.507 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:46:52.507 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:46:52.507 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.6014ms
+2023-12-11 12:46:52.510 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:46:52.511 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:46:52.512 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:46:52.512 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:46:52.959 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:46:53.072 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:46:53.073 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 560.2843ms
+2023-12-11 12:46:53.073 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:46:53.073 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 562.8618ms
+2023-12-11 12:47:22.425 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:47:22.426 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:47:22.426 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.5438ms
+2023-12-11 12:47:22.428 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:47:22.429 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:47:22.429 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:47:22.429 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:47:22.430 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:47:22.437 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:47:22.438 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 8.8743ms
+2023-12-11 12:47:22.438 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:47:22.438 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 10.4057ms
+2023-12-11 12:49:13.563 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/logs - -
+2023-12-11 12:49:13.564 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:49:13.564 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/logs - - - 204 - - 1.1871ms
+2023-12-11 12:49:13.568 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5038/api/logs application/json 87
+2023-12-11 12:49:13.569 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:49:13.570 +05:30 [INF] Executing endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:49:13.570 +05:30 [INF] Route matched with {action = "LogMessage", controller = "Logs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMessage(FoodOrderingSystemAPI.Models.LogModel) on controller LogsController (FoodOrderingSystemAPI).
+2023-12-11 12:49:13.572 +05:30 [INF] LogMessage: Fetched menu items successfully., Severity: Information
+2023-12-11 12:49:13.573 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-12-11 12:49:13.573 +05:30 [INF] Executed action LogsController.LogMessage (FoodOrderingSystemAPI) in 3.4723ms
+2023-12-11 12:49:13.574 +05:30 [INF] Executed endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 12:49:13.574 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5038/api/logs application/json 87 - 200 0 - 6.0746ms
+2023-12-11 12:49:58.836 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:49:58.836 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:49:58.836 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.5882ms
+2023-12-11 12:49:58.838 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:49:58.838 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:49:58.838 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:49:58.838 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:49:59.139 +05:30 [INF] Executed DbCommand (300ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:49:59.150 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:49:59.151 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 312.2933ms
+2023-12-11 12:49:59.151 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:49:59.151 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 313.0867ms
+2023-12-11 12:56:48.947 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:56:48.948 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:56:48.948 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.8463ms
+2023-12-11 12:56:48.951 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:56:48.951 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:56:48.951 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:56:48.951 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:56:49.406 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:56:49.460 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:56:49.462 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 510.3015ms
+2023-12-11 12:56:49.462 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:56:49.462 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 511.3423ms
+2023-12-11 12:59:50.252 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:59:50.252 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:59:50.253 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.6443ms
+2023-12-11 12:59:50.255 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:59:50.255 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:59:50.255 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:59:50.256 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:59:50.260 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:59:50.265 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:59:50.266 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 10.6113ms
+2023-12-11 12:59:50.266 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:59:50.267 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 11.4806ms
+2023-12-11 12:59:59.394 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 12:59:59.394 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:59:59.394 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.5460ms
+2023-12-11 12:59:59.396 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 12:59:59.396 +05:30 [INF] CORS policy execution successful.
+2023-12-11 12:59:59.396 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:59:59.396 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 12:59:59.398 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 12:59:59.403 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 12:59:59.404 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 7.3238ms
+2023-12-11 12:59:59.404 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 12:59:59.404 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 8.2030ms
+2023-12-11 13:00:06.831 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 13:00:06.831 +05:30 [INF] CORS policy execution successful.
+2023-12-11 13:00:06.831 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.7746ms
+2023-12-11 13:00:06.895 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 13:00:06.896 +05:30 [INF] CORS policy execution successful.
+2023-12-11 13:00:06.896 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 13:00:06.896 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 13:00:06.937 +05:30 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 13:00:06.964 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 13:00:06.965 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 68.9222ms
+2023-12-11 13:00:06.965 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 13:00:06.965 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 70.1406ms
+2023-12-11 13:01:29.299 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 13:01:29.299 +05:30 [INF] CORS policy execution successful.
+2023-12-11 13:01:29.299 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.5792ms
+2023-12-11 13:01:29.301 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 13:01:29.302 +05:30 [INF] CORS policy execution successful.
+2023-12-11 13:01:29.302 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 13:01:29.302 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 13:01:29.305 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 13:01:29.310 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 13:01:29.311 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 9.0254ms
+2023-12-11 13:01:29.311 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 13:01:29.311 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 9.9497ms
+2023-12-11 13:01:30.872 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 13:01:30.872 +05:30 [INF] CORS policy execution successful.
+2023-12-11 13:01:30.872 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 13:01:30.873 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 13:01:30.874 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 13:01:30.878 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 13:01:30.879 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 6.6725ms
+2023-12-11 13:01:30.879 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 13:01:30.879 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 7.7157ms
+2023-12-11 13:01:32.379 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 13:01:32.380 +05:30 [INF] CORS policy execution successful.
+2023-12-11 13:01:32.380 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 13:01:32.380 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 13:01:32.381 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 13:01:32.394 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 13:01:32.395 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 14.7994ms
+2023-12-11 13:01:32.395 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 13:01:32.395 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 15.8648ms
+2023-12-11 13:02:23.525 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 13:02:23.525 +05:30 [INF] CORS policy execution successful.
+2023-12-11 13:02:23.525 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.5661ms
+2023-12-11 13:02:23.527 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 13:02:23.527 +05:30 [INF] CORS policy execution successful.
+2023-12-11 13:02:23.527 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 13:02:23.527 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 13:02:23.530 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 13:02:23.534 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 13:02:23.534 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 7.1186ms
+2023-12-11 13:02:23.534 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 13:02:23.535 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 7.8277ms
+2023-12-11 13:05:09.651 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/logs - -
+2023-12-11 13:05:09.652 +05:30 [INF] CORS policy execution successful.
+2023-12-11 13:05:09.652 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/logs - - - 204 - - 1.0018ms
+2023-12-11 13:05:09.654 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5038/api/logs application/json 87
+2023-12-11 13:05:09.655 +05:30 [INF] CORS policy execution successful.
+2023-12-11 13:05:09.655 +05:30 [INF] Executing endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 13:05:09.655 +05:30 [INF] Route matched with {action = "LogMessage", controller = "Logs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMessage(FoodOrderingSystemAPI.Models.LogModel) on controller LogsController (FoodOrderingSystemAPI).
+2023-12-11 13:05:09.657 +05:30 [INF] LogMessage: Fetched menu items successfully., Severity: Information
+2023-12-11 13:05:09.657 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-12-11 13:05:09.657 +05:30 [INF] Executed action LogsController.LogMessage (FoodOrderingSystemAPI) in 2.4744ms
+2023-12-11 13:05:09.658 +05:30 [INF] Executed endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 13:05:09.658 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5038/api/logs application/json 87 - 200 0 - 3.2044ms
+2023-12-11 13:05:33.925 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/Account/Login - -
+2023-12-11 13:05:33.926 +05:30 [INF] CORS policy execution successful.
+2023-12-11 13:05:33.926 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/Account/Login - - - 204 - - 0.7659ms
+2023-12-11 13:05:33.928 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5038/api/Account/Login application/json 93
+2023-12-11 13:05:33.931 +05:30 [INF] CORS policy execution successful.
+2023-12-11 13:05:33.931 +05:30 [INF] Executing endpoint 'FoodOrderingSystemAPI.Controllers.AccountController.Login (FoodOrderingSystemAPI)'
+2023-12-11 13:05:34.056 +05:30 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(FoodOrderingSystemAPI.Models.Login) on controller FoodOrderingSystemAPI.Controllers.AccountController (FoodOrderingSystemAPI).
+2023-12-11 13:05:34.990 +05:30 [INF] Executed DbCommand (139ms) [Parameters=[@__email_0='?' (Size = 50), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[userId], [s].[confirmPassword], [s].[email], [s].[isAdmin], [s].[name], [s].[password], [s].[rememberMe]
+FROM [SignupLogin] AS [s]
+WHERE [s].[email] = @__email_0 AND [s].[password] = @__password_1
+2023-12-11 13:05:35.097 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[FoodOrderingSystemAPI.Models.SignupLogin, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 13:05:35.120 +05:30 [INF] Executed action FoodOrderingSystemAPI.Controllers.AccountController.Login (FoodOrderingSystemAPI) in 1063.6991ms
+2023-12-11 13:05:35.120 +05:30 [INF] Executed endpoint 'FoodOrderingSystemAPI.Controllers.AccountController.Login (FoodOrderingSystemAPI)'
+2023-12-11 13:05:35.122 +05:30 [INF] Session started; Key:b591f281-192f-dd22-6229-d60999b5b04a, Id:85b27129-60cb-084e-6a00-5fc47e4ef53b
+2023-12-11 13:05:35.123 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5038/api/Account/Login application/json 93 - 200 - application/json;+charset=utf-8 1195.4825ms
+2023-12-11 13:05:35.129 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/logs - -
+2023-12-11 13:05:35.129 +05:30 [INF] CORS policy execution successful.
+2023-12-11 13:05:35.129 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/logs - - - 204 - - 0.5090ms
+2023-12-11 13:05:35.132 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5038/api/logs application/json 72
+2023-12-11 13:05:35.132 +05:30 [INF] CORS policy execution successful.
+2023-12-11 13:05:35.132 +05:30 [INF] Executing endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 13:05:35.132 +05:30 [INF] Route matched with {action = "LogMessage", controller = "Logs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMessage(FoodOrderingSystemAPI.Models.LogModel) on controller LogsController (FoodOrderingSystemAPI).
+2023-12-11 13:05:35.133 +05:30 [INF] LogMessage: Login successful!, Severity: Information
+2023-12-11 13:05:35.133 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-12-11 13:05:35.135 +05:30 [INF] Executed action LogsController.LogMessage (FoodOrderingSystemAPI) in 3.007ms
+2023-12-11 13:05:35.135 +05:30 [INF] Executed endpoint 'LogsController.LogMessage (FoodOrderingSystemAPI)'
+2023-12-11 13:05:35.136 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5038/api/logs application/json 72 - 200 0 - 4.0631ms
+2023-12-11 13:05:44.489 +05:30 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5038/api/cart - -
+2023-12-11 13:05:44.489 +05:30 [INF] CORS policy execution successful.
+2023-12-11 13:05:44.490 +05:30 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5038/api/cart - - - 204 - - 0.4572ms
+2023-12-11 13:05:44.491 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5038/api/cart - -
+2023-12-11 13:05:44.492 +05:30 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+2023-12-11 13:05:44.492 +05:30 [INF] CORS policy execution successful.
+2023-12-11 13:05:44.492 +05:30 [INF] Executing endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 13:05:44.492 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodOrderingSystemAPI.Models.Cart]] GetCartItems() on controller OrderCartServiceAPI.Controllers.CartController (FoodOrderingSystemAPI).
+2023-12-11 13:05:44.498 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[id], [c].[foodItemId], [c].[imageUrl], [c].[name], [c].[price], [c].[quantity], [c].[totalAmount], [c].[userId]
+FROM [Carts] AS [c]
+2023-12-11 13:05:44.514 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodOrderingSystemAPI.Models.Cart, FoodOrderingSystemAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-11 13:05:44.515 +05:30 [INF] Executed action OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI) in 22.3204ms
+2023-12-11 13:05:44.515 +05:30 [INF] Executed endpoint 'OrderCartServiceAPI.Controllers.CartController.GetCartItems (FoodOrderingSystemAPI)'
+2023-12-11 13:05:44.515 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5038/api/cart - - - 200 - application/json;+charset=utf-8 23.4360ms
