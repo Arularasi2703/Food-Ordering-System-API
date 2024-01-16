@@ -38,9 +38,7 @@ This API encompasses multiple functionalities, divided across several controller
 2. Configure essential parameters in the `appsettings.json` file.
 3. Run the application using your preferred method (e.g., Visual Studio, command line).
 
-<<<<<<< HEAD
-=======
 ## 📦 Dependencies and Testing
 
 This API is built on ASP.NET Core and incorporates various dependencies such as Entity Framework Core, Serilog for logging, and integration with the Razorpay Payment Gateway. Thorough unit testing is available in the `/Tests` directory.
->>>>>>> a51f8219ff56595c85cc2567e53efd727ee61c86
+
